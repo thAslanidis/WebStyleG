@@ -1,0 +1,89 @@
+
+body{
+    max-width: 1000px;
+    min-width: 245px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid1 , .grid2 , .grid3, .grid4{
+    margin-right: 5px;
+    margin-top: 5px ;
+    box-sizing: border-box;
+    padding: 10px;
+    display:inline-block;
+}
+.grid1{
+    width: 230px;
+       
+}
+.grid2{
+    max-width: 465px;
+    min-width: 230px;
+}
+.grid3{
+    max-width: 700px;
+    min-width: 230px;
+}
+.grid4{
+    max-width: 935px;
+    min-width: 230px;
+}
+.blueBox{
+    width: 190px;
+    height: 40px;
+    background-color: #090981;
+}
+.redBox{
+    width: 190px;
+    height: 40px;
+    background-color: #b80e0e;
+}
+.greenBox{
+        width: 190px;
+        height: 40px;
+        background-color: #039c03;
+}
+.greyBox{
+    width: 190px;
+    height: 40px;
+    background-color: #98999b;
+}
+.white{
+    color:white;
+}
+section{
+    border:5px dotted gray ;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 26px;
+    font-family: "Roboto";
+    font-weight: bold;
+
+}
+h2{
+    Font-weight: bold;
+    font-family:"Source Sans Pro";
+    font-size: 18px;    
+}
+p , li{
+    font-family:"Ubuntu";
+    font-size: 14px;
+}
+.font1{
+    font-family: "Noto Sans";
+}
+.font2{
+    font-family: "Roboto";
+}
+.font3{
+    font-family: "Source Sans Pro";
+}
+.font4{
+    font-family: "Ubuntu";
+}
